@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (!response.ok) {
                     throw new Error 
                 }
-                return response.json())
+                return response.json()
             })
             .then(directions => {
                 navigateLabyrinth(directions)
